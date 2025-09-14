@@ -23,7 +23,7 @@ console.log(customers);
 customers.forEach(customer =>console.log(
     `Name:${customer.name}`,
     `Email:${customer.email}`,
-    `Purchases:${customer.purchases}`,
+    `Purchases:${customer.purchases.length}`,
 
 ));
 
