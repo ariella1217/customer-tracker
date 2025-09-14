@@ -12,11 +12,11 @@ let customers = [
 
 { name:"Isabella",
   email:"Isabella13@yahoo.com",
-  purchases:[" eyeshadow"," mascara"," liptstick"]
+  purchases:["Eyeshadow"," Mascara"," Lipstick"]
 }
 ];
 
-newCustomer = {name:"Jacob",email:"Jacob2001@gmail.com",purchases:[" soccer ball"," baseball"," basketball"]}
+newCustomer = {name:"Jacob",email:"Jacob2001@gmail.com",purchases:["Soccer ball"," Baseball"," Basketball"]}
 customers.push(newCustomer)
 console.log(customers);
 
