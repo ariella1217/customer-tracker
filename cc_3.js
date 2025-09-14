@@ -24,6 +24,8 @@ customers.shift();
 
 customers[0].email = "Elizabeth2004@gmail.com";
 
+customers[1].purchases.push(" Lip Gloss");
+
 
 customers.forEach(customer =>console.log(
     `Name:${customer.name}`,
