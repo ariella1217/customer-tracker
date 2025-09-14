@@ -21,9 +21,9 @@ customers.push(newCustomer)
 console.log(customers);
 
 customers.forEach(customer =>console.log(
-    `Name: ${customer.name}`,
-    `Email: ${customer.email}`,
-    `Purchases: ${customer.purchases}`,
+    `Name:${customer.name}`,
+    `Email:${customer.email}`,
+    `Purchases:${customer.purchases}`,
 
 ));
 
