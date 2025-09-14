@@ -20,6 +20,11 @@ newCustomer = {name:"Jacob",email:"Jacob2001@gmail.com",purchases:["Soccer ball"
 customers.push(newCustomer)
 console.log(customers);
 
+customers.shift();
+
+customers[0].email = "Elizabeth2004@gmail.com";
+
+
 customers.forEach(customer =>console.log(
     `Name:${customer.name}`,
     `Email:${customer.email}`,
